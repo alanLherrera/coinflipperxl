@@ -1,0 +1,71 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, rgb(255, 0, 0), white);
+}
+
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    padding: 25px;
+}
+
+/* Controls and Message Styles */
+.controls {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.message-container {
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.5em;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#flip,
+#roll {
+    background: linear-gradient(to bottom left, rgb(175, 173, 230), white);
+}
+
+#flip:hover,
+#roll:hover {
+    background: linear-gradient(to bottom left, rgb(139, 0, 0), lightblue);
+}
+
+#clear {
+    background: linear-gradient(to bottom left, rgb(255, 0, 0), white);
+}
+
+#clear:hover {
+    background: linear-gradient(to bottom left, red, rgb(255, 0, 0));
+}
+
+/* Scoreboard Styles */
+table, 
+th, 
+td {
+    border: 1px solid rgb(51, 0, 255);
+    margin: 0 auto;
+}
+
+td {
+    padding: 5px;
+    font-weight: bold;
+}
